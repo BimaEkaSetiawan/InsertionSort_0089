@@ -6,6 +6,11 @@ int n; // membuat variable inputan n
 
 void input()
 {
-    cout << "Masukan Jumlah Data pada Array : "; //membuat inputan jumlah element array
-    cin >> n; //memangil variable inputan n
-}
+    while (true)
+    {
+        cout << "Masukan Jumlah Data pada Array : "; // membuat inputan jumlah element array
+        cin >> n; //memanggil variable inputan n
+
+
+    }
+} 
