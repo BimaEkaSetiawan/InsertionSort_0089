@@ -11,6 +11,14 @@ void input()
         cout << "Masukan Jumlah Data pada Array : "; // membuat inputan jumlah element array
         cin >> n; //memanggil variable inputan n
 
+        if (n<= 20)
+        {
+           break;
+        }
+        else
+        {
+            cout << "\nArray yang anda masukan maksimal 20 Element.\n"; //menampilkan pesan jika data lebih dari 20
+        }
 
     }
 } 
