@@ -70,3 +70,12 @@ void Display()
     }
     cout << endl;
 }
+
+int main()
+{
+    input();
+    insertionSort();
+    Display();
+    system("Pause");
+    return 0;
+}
